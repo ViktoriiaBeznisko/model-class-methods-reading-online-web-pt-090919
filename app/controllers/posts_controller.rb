@@ -2,7 +2,6 @@ class PostsController < ApplicationController
   
 
   def index
-    @posts = Post.all
     @authors = Author.all
  
   # filter the @posts list based on user input
