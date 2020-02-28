@@ -17,7 +17,7 @@ class PostsController < ApplicationController
   else
     # if no filters are applied, show all posts
     @posts = Post.all
-  end
+    end
   end
 
   def show
